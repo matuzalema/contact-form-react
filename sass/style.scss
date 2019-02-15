@@ -1,0 +1,83 @@
+@import "variable";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $main-color;
+	font-family: 'Roboto', sans-serif;
+	background: linear-gradient(to bottom, #1e5799 0%,#207cca 38%,#207cca 38%,#2989d8 50%,#7db9e8 100%);
+	background-size: cover;
+}
+
+#app {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+input {
+	height: 40px;
+	line-height: 30px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 3px;
+	border: none;
+	&:focus {
+		outline: none;
+	}
+}
+
+.contactForm {
+	max-width: 1000px;
+	display: flex;
+	margin: 40px auto 20px;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	border-top: 1px solid $fourth-color;
+	border-bottom: 1px solid $fourth-color;
+	button {
+		height: 40px;
+		padding: 0 10px;
+		background-color: $fourth-color;
+		border: none;
+		border-radius: 3px;
+		color: $main-color;
+		&:hover{
+			color: white;
+			background-color: $main-color;
+			transition: background-color 1s;
+		}
+	}
+}
+
+.contactsList {
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 20px 0;
+}
+
+.contactItem img {
+	max-width: 80px;
+	float: left;
+	margin: 20px;
+}
+
+.contactItem {
+	color: $sixth-color;
+	margin: 20px auto;
+	padding: 20px;
+	max-width: 450px;
+	border: 1px solid $fourth-color;
+	border-radius: 15px;
+	a {
+		color: #cddc39;
+		text-decoration: none;
+	}
+}
+
+

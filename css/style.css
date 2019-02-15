@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #01395C;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to bottom, #1e5799 0%, #207cca 38%, #207cca 38%, #2989d8 50%, #7db9e8 100%);
+  background-size: cover; }
+
+#app {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto; }
+
+input {
+  height: 40px;
+  line-height: 30px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+  border: none; }
+  input:focus {
+    outline: none; }
+
+.contactForm {
+  max-width: 1000px;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 40px auto 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-top: 1px solid #e1e36f;
+  border-bottom: 1px solid #e1e36f; }
+  .contactForm button {
+    height: 40px;
+    padding: 0 10px;
+    background-color: #e1e36f;
+    border: none;
+    border-radius: 3px;
+    color: #01395C; }
+    .contactForm button:hover {
+      color: white;
+      background-color: #01395C;
+      transition: background-color 1s; }
+
+.contactsList {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px 0; }
+
+.contactItem img {
+  max-width: 80px;
+  float: left;
+  margin: 20px; }
+
+.contactItem {
+  color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 450px;
+  border: 1px solid #e1e36f;
+  border-radius: 15px; }
+  .contactItem a {
+    color: #cddc39;
+    text-decoration: none; }
